@@ -4,7 +4,7 @@ A Bonjour/Zeroconf protocol implementation in TypeScript. Publish
 services on the local network or discover existing services using
 multicast DNS.
 
-This is a fork of [onlxltd's TypeScript re-write](https://github.com/onlxltd/bonjour-service) of [project Bonjour](https://github.com/onlxltd/bonjour-service) in order to provide quicker updates until [pending PR's](https://github.com/onlxltd/bonjour-service/pulls) are merged.
+This is a fork of [onlxltd's TypeScript re-write](https://github.com/onlxltd/bonjour-service) of [project Bonjour](https://github.com/watson/bonjour) in order to provide quicker updates until [pending PR's](https://github.com/onlxltd/bonjour-service/pulls) are merged.
 
 
 
