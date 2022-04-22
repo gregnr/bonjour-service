@@ -1,12 +1,10 @@
 # bonjour-service
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/onlxltd/bonjour-service/build?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/bonjour-service?style=flat-square) ![GitHub Release Date](https://img.shields.io/github/release-date/onlxltd/bonjour-service?style=flat-square) ![GitHub](https://img.shields.io/github/license/onlxltd/bonjour-service?style=flat-square) [![DeepScan grade](https://deepscan.io/api/teams/13435/projects/16430/branches/352351/badge/grade.svg?style=flat-square)](https://deepscan.io/dashboard#view=project&tid=13435&pid=16430&bid=352351)
-
 A Bonjour/Zeroconf protocol implementation in TypeScript. Publish
 services on the local network or discover existing services using
 multicast DNS.
 
-This is a rewrite of the project Bonjour (https://github.com/watson/bonjour) into modern TypeScript.
+This is a fork of [onlxltd's TypeScript re-write](https://github.com/onlxltd/bonjour-service) of [project Bonjour](https://github.com/onlxltd/bonjour-service) in order to provide quicker updates until [pending PR's](https://github.com/onlxltd/bonjour-service/pulls) are merged.
 
 
 
@@ -15,17 +13,17 @@ Add to your project dependencies using Yarn or NPM.
 
 #### Install with Yarn
 ```
-yarn add bonjour-service
+yarn add @gregnr/bonjour-service
 ```
 #### Install with NPM
 ```
-npm install bonjour-service
+npm install @gregnr/bonjour-service
 ```
 
 ## Usage
 
 ```js
-import Bonjour from 'bonjour-service'
+import Bonjour from '@gregnr/bonjour-service'
 
 const instance = new Bonjour()
 

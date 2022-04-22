@@ -1,6 +1,6 @@
 {
-  "name": "bonjour-service",
-  "version": "1.0.0",
+  "name": "@gregnr/bonjour-service",
+  "version": "0.1.0",
   "description": "A Bonjour/Zeroconf implementation in TypeScript",
   "main": "./dist/index.js",
   "dependencies": {
@@ -23,8 +23,10 @@
   "scripts": {
     "test": "standard --fix && tape test/*.js",
     "build": "tsc --removeComments true",
+    "clean": "rm -rf dist",
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
-    "example:simple": "node examples/simple"
+    "example:simple": "node examples/simple",
+    "prepublishOnly": "yarn clean && yarn build"
   },
   "repository": {
     "type": "git",
